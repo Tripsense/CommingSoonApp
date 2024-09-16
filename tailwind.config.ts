@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        comfortaa: ['Comfortaa', 'bold'], // Adding the custom font family
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
@@ -16,4 +19,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
