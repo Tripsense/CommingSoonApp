@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "TripSense",
+  title: "Plan your Trips with TripSense",
   description: "Coming soon",
 };
 

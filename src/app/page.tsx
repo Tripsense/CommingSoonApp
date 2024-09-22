@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Logo from "../public/TripSense_logo.png";
-import Banner from "../public/websitebanner.png";
+import Banner from "../public/Demovideo.gif";
 
 export default function Home() {
   return (
@@ -27,31 +27,13 @@ export default function Home() {
             Coming Soon!
           </h3>
         </span>
-        {/* <Image src={Banner} alt="" className="p-[20px]"/> */}
-
-        {/* Video in place of the banner image */}
-        <video
+        <Image
+          src={Banner}
+          alt=""
           className="p-[20px]"
-          autoPlay
-          loop
-          muted
-          playsInline
-        >
-          <source
-            src="../public/Demovideo.mp4"
-            type="video/mp4"
-          />
-          {/* Optional: Add more formats for better compatibility */}
-          {/* <source
-            src="/path-to-your-video.webm"
-            type="video/webm"
-          />
-          <source
-            src="/path-to-your-video.ogv"
-            type="video/ogg"
-          /> */}
-          Your browser does not support the video tag.
-        </video>
+          width={450}
+          height={225}
+        />
       </div>
     </div>
   );
