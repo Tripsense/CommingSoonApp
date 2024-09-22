@@ -19,20 +19,24 @@ export default function Home() {
               #WhatNext
             </span>{" "}
           </h2>
-          <h2 className=" font-[500] text-[15px] pt-[25px]">
+          <h2 className=" font-[500] text-[15px] pt-[25px] mb-[50px]">
             DIY Trip planner&nbsp; &bull;&nbsp; Travel Guide&nbsp; &bull;&nbsp;
             Team Games
           </h2>
-          <h3 className=" font-[700] text-[20px] mt-[50px] text-[#ffffff] bg-[#000000] rounded-[10px] p-[6px] w-[150px]">
-            Coming Soon!
-          </h3>
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfAaKgELbhNtk5aSK7bympVZ3eLzi8-MoTk7M8F-cbKhvFJaA/viewform?usp=sf_link"
+            className="font-[700] text-[20px] mt-[50px] text-[#ffffff] bg-[#000000] rounded-[10px] p-[6px] w-[130px]"
+          >
+            Join Waitlist
+          </a>
+          <h2 className=" font-[500] text-[15px] pt-[25px]">
+            Get upto 80% Discount during product Launch!
+          </h2>
         </span>
         <Image
           src={Banner}
           alt=""
           className="p-[20px]"
-          width={450}
-          height={225}
         />
       </div>
     </div>
