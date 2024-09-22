@@ -37,6 +37,8 @@ export default function Home() {
           src={Banner}
           alt=""
           className="p-[20px]"
+          width={450}
+          height={225}
         />
       </div>
     </div>
